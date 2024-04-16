@@ -5,7 +5,7 @@ import './../styles/App.css';
 const App = () => {
   const [greet, setGreet] = useState('');;
   const inputHandel = (inputVal) => {
-      { inputVal === '' ? setGreet('') : setGreet('Hello' + ' ' + inputVal) }
+      { inputVal === '' ? setGreet('') : setGreet('Hello' + ' ' + inputVal +'!') }
   }
   return (
     <div>
